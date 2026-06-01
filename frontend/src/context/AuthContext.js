@@ -27,7 +27,6 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem('user');
   };
 
-  // Axios interceptor to attach token to every request
   useEffect(() => {
     const interceptor = axios.interceptors.request.use(
       (config) => {
