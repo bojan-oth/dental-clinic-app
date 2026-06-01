@@ -46,7 +46,6 @@ const AdminDashboard = () => {
       try {
         await axios.delete(`http://localhost:5000/api/appointments/${id}`);
         setMessage('Appointment deleted successfully.');
-        // refresh list
         if (showAll) {
           fetchAllAppointments();
         } else {
