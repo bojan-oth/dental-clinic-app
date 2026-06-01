@@ -103,7 +103,6 @@ const PatientDashboard = () => {
         procedure,
       });
       setMessage(`Appointment booked successfully for ${date} at ${selectedSlot}!`);
-      // After booking, reload the slots to show accurate availability
       if (selectedHour) {
         fetchSlotsForHour(selectedHour);
       }
