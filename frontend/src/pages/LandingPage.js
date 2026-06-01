@@ -51,7 +51,6 @@ const LandingPage = () => {
 
   return (
     <div>
-      {/* HERO SECTION */}
       <div style={heroStyle}>
         {blurEnabled && <div style={blurredBackgroundStyle}></div>}
         <div style={darkOverlay}></div>
@@ -98,7 +97,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* SERVICES SECTION */}
       <div id="services" className="py-5 bg-light">
         <div className="container">
           <div className="text-center mb-4">
@@ -129,7 +127,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* ABOUT US / WHY CHOOSE US */}
       <div className="py-5">
         <div className="container">
           <div className="row align-items-center">
@@ -164,7 +161,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* TESTIMONIALS */}
       <div className="py-5 bg-light">
         <div className="container">
           <div className="text-center mb-5">
@@ -189,7 +185,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* CONTACT & MAP */}
       <div id="contact" className="py-5">
         <div className="container">
           <div className="row">
@@ -224,7 +219,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* FOOTER */}
       <footer className="text-white py-4" style={{ backgroundColor: '#4a5d52' }}>
         <div className="container">
           <div className="row">
